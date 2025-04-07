@@ -1,10 +1,17 @@
-
-.con{
-  background-color: #1A0E25;
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --navbar-height: 80px;
 }
 
+.con {
+  background-color: #1a0e25;
+}
 
-
-.profile{
+.profile {
   transform: rotate(2.25deg);
+}
+
+html{
+  scroll-behavior: smooth;
 }
